@@ -1,0 +1,51 @@
+#example
+{ box-sizing: border-box; 
+}
+
+body { 
+    font-size: 16px;
+    font-family: 'Sansito', Ubuntu, sans-serif;
+    background-color:#ffffff;
+}
+
+
+h1, h2, h3 {
+    color: #000000;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+header {
+    background-color: #ffffff; 
+    padding: .5rem;
+    max-width: 475px;    
+}
+
+main {
+	min-height: 5px;
+    
+}
+
+main img {
+    width: 128px;
+    height: auto;
+    image-orientation: right;
+}
+
+footer {
+	clear: both;
+	text-align: left;
+	padding: 1em;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: .8rem;
+    max-width: 475px;
+}
+
+.profile {
+    box-shadow: .25rem .25rem .25rem #ccaabb;
+    border: 1px solid #777;
+}
