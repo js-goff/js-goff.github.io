@@ -1,49 +1,116 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en-us">
-  <head>
-      <title>The Tri-Cities Weather</title>
-      <meta charset="utf-8">
-      <meta name="description" content="The Tri-Cities Weather Page. We know your weather.">  
-     <link rel="stylesheet" href="styles/main.css">
-  </head>
-  <body>
-    <header>
-      <img src="images/sunandcloud.jpg" alt="sun and clouds">
-      <h1>Tri-Cities Weather Page</h1>
-      <div class="subheading">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Tri-Cities Weather</title>
+  <meta name="description" content="The Tri-Cities Weather Page. We know your weather.">
+        <link rel="stylesheet" href="styles/normalizecss.css">
+        <link rel="stylesheet" href="styles/main-5.css">
+        <link rel="stylesheet" href="styles/medium-5.css">
+        <link rel="stylesheet" href="styles/large-5.css">        
+  
+</head>
+<body>
+
+  <header>
+   <img src="images/storm-weather.jpg" alt="lighting and city">
+    <div class="subheading">
       <p class= "motto">Where we always have your weather needs covered!</p>
-      </div>  
+      </div>
+  </header>
+
+  <nav>
+    <ul>
+    	<li><a href="#">Home</a></li>
+    	<li><a href="#">Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="#">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <h2>The Tri-Cities Weather</h2>
+    <figure>
+    </figure>
+    <section class="weather-summary">
+      <h3>Weather Summary</h3>    
+      <div class="highlow">
+        <p>High:88</p>  
+        <p>Low:72</p>  
+      </div>
+      <div class="current">
+        Sunny
+        <picture>
+            <img src="images/hot-weather.jpg" alt="hot weather icon">
+        </picture>
+      </div>   
+      <div class="conditions">
+        <p>Precipitation: 0</p>  
+        <p>Wind Speed: 7 mph NE</p>  
+      </div>           
+    </section>
+        
+    <section class="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+	</thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+	</tbody>
+      </table>
+    </section>
       
-      
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#Franklin/">Franklin</a></li>
-        <li><a href="#Greenville/">Greenville</a></li>
-        <li><a href="#Springfield/">Springfield</a></li>
-        <li><a href="#Storms/">Storms</a></li>
-        <li><a href="#Gallery/">Gallery</a></li>
-      </ul>
-    </nav>  
-    <main>
-      <h2>Franklin City</h2>
-          <section>
-        <h3>Tri-Cities 10 Day Weather Data</h3>
-        <h3>Weather data</h3>
-        <h3>10 Day Forecast</h3>
-             <img src="images/hot-weather.jpg" width="300" height="200" alt="hot weather">
-        <h3>Franklin Weather Story</h3>
-            <img src="images/Rain-image.png" width="300" height="200" alt="hot weather">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Integer dictum urna dui. Ut imperdiet facilisis             sapien.<br>
-              Nunc ultrices sem eget ligula hendrerit pulvinar non et tellus.<br> Ut dignissim vel ipsum sagittis faucibus. Aenean iaculis eleifend nulla id rhoncus.<br> Cras velit leo, maximus et finibus a, molestie eget quam.
-              </p>
-      </section>
-       <footer>
-         <aside> To find out more, contact Jared Goff at 435-555-4455.</aside>
-       <p class="footer=bar">Copyright &copy;<span id="currentdate"></span> 2018  |  The Tri-Cities Weather | Franklin City</p>
-       
-    </footer>
-     </main>     
-  </body>
+    <article>
+      <h3>Franklin Breaks Record</h3>	
+       <p class="town-article">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt risus a dolor convallis sollicitudin. Fusce finibus odio ut arcu volutpat, nec finibus dolor pellentesque. Phasellus consequat viverra ante, nec congue lacus pellentesque eu. Integer molestie, mauris eget vestibulum pulvinar, risus mi vestibulum elit, in convallis libero mauris mollis sem. Curabitur tincidunt pretium rhoncus. Fusce elementum aliquet lacinia. Maecenas at ex eu lacus fermentum imperdiet. Nulla elementum tempus augue eu eleifend. Aliquam dignissim dui vel erat ullamcorper, ut volutpat sapien tempor. Aliquam semper sollicitudin sodales. Fusce eget ultrices nisi. Nulla auctor ultricies leo, sit amet cursus nisl mattis eget.
+
+Aliquam ullamcorper augue vel mi commodo posuere. Morbi nibh metus, fermentum id eros a, elementum commodo ante. Suspendisse finibus facilisis lectus, sit amet pellentesque urna. Pellentesque tempus sem magna, in consequat magna iaculis ut. Curabitur lobortis, arcu in finibus blandit, dolor purus bibendum orci, nec sollicitudin quam arcu et odio. Integer vestibulum tincidunt nisi, non convallis velit fringilla nec. In lobortis diam a lorem imperdiet sagittis. Morbi accumsan enim ac dignissim accumsan. Quisque faucibus sit amet risus efficitur porttitor. Phasellus mattis, justo a ultrices viverra, est metus pulvinar ex, et vehicula purus sem eu arcu.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sed arcu nulla. Duis fringilla erat in tortor laoreet commodo. Cras tincidunt a nisi in mollis. Fusce et dapibus nibh, et vehicula nunc. Morbi mattis lobortis rhoncus. Cras a dui bibendum, varius risus et, facilisis magna. Praesent porta laoreet tellus. Duis pretium elit leo, vitae tempor dui iaculis in. Mauris gravida nulla nisl, a volutpat mauris imperdiet eu. Aenean vel metus cursus libero mollis efficitur sed vel lectus. Nulla vitae turpis non ex faucibus tincidunt. Proin malesuada faucibus venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus sollicitudin mauris id fringilla aliquam.
+      </p>
+      <img src="images/break-record.jpg" width= "1000" height="400" alt= Eastside of Fanklin>
+         </article>		  
+  
+  </main>
+    
+  <footer>
+    <section class="contact">
+      Contact information placeholder
+      999.999.9999
+      123 Main St. Anytown, US 99999
+      Google Map
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
+    </section>
+  </footer>
+
+</body>
 </html>
