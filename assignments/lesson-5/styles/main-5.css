@@ -1,4 +1,7 @@
-* { box-sizing: border-box;}  
+* { 
+  box-sizing: border-box;
+
+}  
 
 body {
   font-size: 15px;
@@ -9,25 +12,37 @@ body {
 header, nav, main, footer {
   max-width: 960px; 
   margin: 0 auto;
+  background: #0c8dc0;
   
 }
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'rokitt', sans-serif;
-  color: #458B13;
-    
+  color: #092834;
+  padding: 7px;
+  text-align: center;
+        
 }
 
+
 header {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+  display: auto;
+  justify-content: center;
 }
 header h1 {}
-header img {}
+header img {
+  width: 960px;
+  height: 350px; 
+    
+  
+}
 header .subheading {
-  text-align: right;
-  margin-top: -1.5em;
+  font-family:'rokitt', sans-serif;
+  color: #092834;
+  text-align: inherit;
+  padding: 5px;  
+  text-align: center;
+  
 }
 
 nav {
@@ -42,7 +57,7 @@ nav ul {
   overflow: hidden;
 }
 nav ul li {
-  display: inline-block;
+  display: block;
 }
 nav ul li a {
   display: block;
@@ -61,7 +76,11 @@ nav ul li a:hover {
 
 main {}
 main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure { 
+  margin: 0 0 .2rem 2%; 
+  width:96%; 
+}
+
 main figure img { }
 
 main article {
@@ -83,3 +102,59 @@ footer {
   padding-top: 1em;
 }
 
+.forecast{
+  display:none;
+}
+
+.current img {
+  width: 75px;
+  padding: .5em; 
+
+  
+}
+
+table , th, td {
+  border: 2px solid #092834;
+  color: #092834;
+  border-collapse: collapse;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+tr {
+  height: 5px;
+}
+ 
+.weather-summary {
+  text-align: center
+  color: #092834;
+}
+
+.highlow {
+  text-align: center;
+  color: #092834;
+  padding 5px;
+  
+}
+
+.current {
+  text-align: center;
+  color: #092834;
+  padding 5px;
+  
+}
+
+.conditions{
+  text-align: center;
+  color: #092834;
+  padding: 5px;
+  
+}
+
+.town-article{
+  color: #092834;
+}
