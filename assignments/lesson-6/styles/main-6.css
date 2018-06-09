@@ -17,8 +17,9 @@ header, nav, main, footer {
 }
 
 h1 {
+  display: flex;
   font-family: 'rokitt', sans-serif;
-  color: #092834;
+  color: #ffff;
   padding: 10px;
   text-align: center;
   
@@ -27,7 +28,7 @@ h1 {
 
  h2, h3, h4, h5, h6{
   font-family: 'rokitt', sans-serif;
-  color: #092834;
+  color: #ffff;
   padding: 7px;
   text-align: center;
         
@@ -56,10 +57,13 @@ header figure .franklin img {width: 100%;
 }
 
 header .subheading {
- font-family: 'Rokkitt', serif;
-  color: #092834;
-  padding: 5px;  
+  display: flex;
+  flex-flow:column;
+  font-family: 'Rokkitt', serif;
+  color: #ffff;
+  padding: 3px;  
   text-align: center;
+  margin-right: 1em;
   
 }
 
@@ -146,8 +150,8 @@ footer {
 }
 
 table , th, td {
-  border: 2px solid #092834;
-  color: #092834;
+  border: 2px solid #ffff;
+  color: #ffff;
   border-collapse: collapse;
   text-align: left;
   padding-left: 1em;
@@ -163,28 +167,30 @@ tr {
  
 .weather-summary{
   text-align: left;
-  color: #092834;
+  color: #ffff;
 }
 
 .highlow {
   text-align:center;
-  color: #092834;
+  color: #ffff;
   padding 10px;
   margin-left:  10px;
   height: -5em;
 }
 
 .logo{
+  justify-content: flex-start;
   margin: 10px;
   width: 150px;
   padding: 10px;
   height: 10px;
+  Float: left;
    
 }
 
 .current {
   text-align: center;
-  color: #092834;
+  color: #ffff;
   padding 6px;
   margin: 10px;
   height: 5px;
@@ -192,7 +198,7 @@ tr {
 
 .conditions{
   text-align: center;
-  color: #092834;
+  color: #ffff;
   padding:15px;
   margin 5px;
 }  
@@ -213,5 +219,5 @@ tr {
 
 
 .town-article{
-  color: #092834;
+  color: #ffff;
 }
