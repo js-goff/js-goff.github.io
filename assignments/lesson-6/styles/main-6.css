@@ -195,9 +195,22 @@ tr {
   color: #092834;
   padding:15px;
   margin 5px;
-  
-  
+}  
+.contact{
+  text-align: center;
+  color: #ffff;
+  padding: 8px;
+  margin-bottom: 2px;
+} 
+
+.footer-bar{
+  text-align: center
+  color: #ffff;
+  padding: 8px;
+  margin-bottom: 2px;
+   
 }
+
 
 .town-article{
   color: #092834;
