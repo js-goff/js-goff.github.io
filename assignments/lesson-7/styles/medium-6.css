@@ -1,0 +1,25 @@
+@media only screen and (min-width: 37.5em) {
+      
+    nav button {
+      display:none; 
+  }  
+    
+    section.forecast { 
+      display: block; 
+    }  
+  
+  nav ul li {
+      display: inline-block;
+    }
+  
+  nav ul.hide {display: block;
+  }
+  
+    main article img{
+      width: 250px;
+      float: right;
+      margin: 7px;
+      box-shadow: 4px 4px 4px #092834;
+      padding: 2px;
+      
+  }
