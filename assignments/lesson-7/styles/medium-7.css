@@ -16,6 +16,7 @@
   }
   
     main article img{
+      Flex-flow: center;
       width: 250px;
       float: right;
       margin: 7px;
@@ -25,11 +26,12 @@
   }
   
   .grid img{
-      flex-flow: column;
+      grid-template-columns: 1fr 1fr;
       width: 390px;
-      margin: 10px;
+      margin: 15px;
       box-shadow: 4px 4px 4px #092834;
       padding: 2px;
+    ; 
      
     
     
