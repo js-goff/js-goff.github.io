@@ -23,3 +23,16 @@
       padding: 2px;
       
   }
+  
+  .grid img{
+      flex-flow: column;
+      width: 390px;
+      margin: 10px;
+      box-shadow: 4px 4px 4px #092834;
+      padding: 2px;
+     
+    
+    
+    
+  }
+    
