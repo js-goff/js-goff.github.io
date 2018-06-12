@@ -133,7 +133,7 @@ footer {
   display:none;
 }
 
-.clearfix: after {
+.clearfix: active; {
     content: "";
     display: table;
     clear: both;
@@ -143,7 +143,7 @@ footer {
   width: 100px;
   padding: .5em; 
   margin-right: 200px;
-  height: .5;
+  
 }
 
 table , th, td {
@@ -170,8 +170,7 @@ tr {
 .highlow {
   text-align:center;
   color: #fff;
-  padding 7px;
-  height: -5em;
+  height: 5em;
 }
 
 .logo{
@@ -196,7 +195,7 @@ tr {
   text-align: center;
   color: #fff;
   padding:15px;
-  margin 5px;
+ 
 }  
 .contact{
   text-align: center;
@@ -206,7 +205,7 @@ tr {
 } 
 
 .footer-bar{
-  text-align: center
+  text-align: center;
   color: #fff;
   padding: 8px;
   margin-bottom: 2px;
@@ -230,7 +229,7 @@ main .grid{
 
 main .gridimage {
   width: auto;
-  display: center;
+ 
 }
     
     
