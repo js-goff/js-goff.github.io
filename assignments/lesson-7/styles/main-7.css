@@ -36,24 +36,20 @@ h1 {
 
 
 header {
-  display: auto;
-  justify-content: center;
+  
 }
 header h1 {}
 header img {
   width: 100%;
-  display: center;
-  
+    
 }
 
 header figure .franklin{
   width: 100%;
-  display: center;
 }
 
 header figure .franklin img {width: 100%;
-  display: center;
-  
+
 }
 
 header .subheading {
@@ -150,7 +146,7 @@ footer {
 }
 
 table , th, td {
-  border: 2px solid #ffff;
+  border: 2px solid #fff;
   color: #fff;
   border-collapse: collapse;
   text-align: left;
