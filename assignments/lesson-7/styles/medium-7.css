@@ -28,7 +28,7 @@
   .grid img{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      width: 100%;
+      width: 75%;
       margin: 0 0 0 2%;
       box-shadow: 10px 10px 10px #092834;
       padding: 2px;
@@ -40,7 +40,7 @@
     
 }
   .gridimage figcaption {
-      text-align: center; font-size: .75rem
+      text-align: center font-size: .75rem;
     
   }
   .town-article {

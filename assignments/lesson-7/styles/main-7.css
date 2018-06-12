@@ -19,7 +19,7 @@ header, nav, main, footer {
 h1 {
   display: flex;
   font-family: 'rokitt', sans-serif;
-  color: #ffff;
+  color: #fff;
   padding: 10px;
   text-align: center;
   
@@ -28,7 +28,7 @@ h1 {
 
  h2, h3, h4, h5, h6{
   font-family: 'rokitt', sans-serif;
-  color: #ffff;
+  color: #fff;
   padding: 7px;
   text-align: center;
         
@@ -60,7 +60,7 @@ header .subheading {
   display: flex;
   flex-flow:column;
   font-family: 'Rokkitt', serif;
-  color: #ffff;
+  color: #fff;
   padding: 3px;  
   text-align: center;
   margin-right: 1em;
@@ -151,7 +151,7 @@ footer {
 
 table , th, td {
   border: 2px solid #ffff;
-  color: #ffff;
+  color: #fff;
   border-collapse: collapse;
   text-align: left;
   padding-left: 1em;
@@ -167,12 +167,12 @@ tr {
  
 .weather-summary{
   text-align: left;
-  color: #ffff;
+  color: #fff;
 }
 
 .highlow {
   text-align:center;
-  color: #ffff;
+  color: #fff;
   padding 10px;
   margin-left:  10px;
   height: -5em;
@@ -190,7 +190,7 @@ tr {
 
 .current {
   text-align: center;
-  color: #ffff;
+  color: #fff;
   padding 6px;
   margin: 10px;
   height: 5px;
@@ -198,20 +198,20 @@ tr {
 
 .conditions{
   text-align: center;
-  color: #ffff;
+  color: #fff;
   padding:15px;
   margin 5px;
 }  
 .contact{
   text-align: center;
-  color: #ffff;
+  color: #fff;
   padding: 8px;
   margin-bottom: 2px;
 } 
 
 .footer-bar{
   text-align: center
-  color: #ffff;
+  color: #fff;
   padding: 8px;
   margin-bottom: 2px;
    
@@ -219,21 +219,22 @@ tr {
 
 
 .town-article{
-  color: #ffff;
+  color: #fff;
 }
 
-.grid{
+main .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
   background: #0c8dc0; 
   padding: 1em;
-  color: #ffff;
+  color: #fff;
    
 }
 
-.gridimage {
-  width: auto:
+main .gridimage {
+  width: auto;
+  display: center;
 }
     
     
