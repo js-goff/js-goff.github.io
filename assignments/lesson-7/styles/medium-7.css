@@ -26,20 +26,23 @@
   }
   
   .grid img{
+      display: grid;
       grid-template-columns: 1fr 1fr;
-      width: 400px;
-      height: 241px;
-      margin: 15px;
+      width: 100%;
+      margin: 0 0 0 2%;
       box-shadow: 10px 10px 10px #092834;
       padding: 2px;
     
   }
   
   .grid figure:hover {
-      box-shadow: 1px 1px 1px 1px #092834; 
-  
-}
+      box-shadow:  1px 1px 1px #092834; 
     
+}
+  .gridimage figcaption {
+      text-align: center; font-size: .75rem
+    
+  }
   .town-article {
       padding: 10px;
     
