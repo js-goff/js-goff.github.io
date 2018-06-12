@@ -16,7 +16,7 @@
   }
   
     main article img{
-      Flex-flow: center;
+      Flex-flow: right;
       width: 250px;
       float: right;
       margin: 7px;
@@ -27,14 +27,24 @@
   
   .grid img{
       grid-template-columns: 1fr 1fr;
-      width: 390px;
+      width: 400px;
+      height: 241px;
       margin: 15px;
-      box-shadow: 4px 4px 4px #092834;
+      box-shadow: 10px 10px 10px #092834;
       padding: 2px;
-    ; 
-     
     
+  }
+  
+  .grid figure:hover {
+      box-shadow: 1px 1px 1px 1px #092834; 
+  
+}
     
+  .town-article {
+      padding: 10px;
     
   }
     
+  .forecast {
+      padding: 10px;
+  }

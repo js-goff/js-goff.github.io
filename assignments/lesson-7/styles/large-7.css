@@ -6,7 +6,9 @@
   
   nav ul.hide {display: block;}
   }
-  .grid main img:hover; {
+ 
+.grid figure: hover {
+  box-shadow:1px 1px 1px #092834; 
   
 }
   
