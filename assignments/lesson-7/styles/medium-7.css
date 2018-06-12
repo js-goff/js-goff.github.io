@@ -16,7 +16,6 @@
   }
   
     main article img{
-      Flex-flow: right;
       width: 250px;
       float: right;
       margin: 7px;
@@ -40,7 +39,7 @@
     
 }
   .gridimage figcaption {
-      text-align: center font-size: .75rem;
+      text-align: center; font-size: .75rem;
     
   }
   .town-article {

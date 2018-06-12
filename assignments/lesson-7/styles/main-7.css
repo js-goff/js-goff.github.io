@@ -133,7 +133,7 @@ footer {
   display:none;
 }
 
-.clearfix: active; {
+.clearfix{
     content: "";
     display: table;
     clear: both;
@@ -186,7 +186,6 @@ tr {
 .current {
   text-align: center;
   color: #fff;
-  padding 6px;
   margin: 10px;
   height: 5px;
 }
