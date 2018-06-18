@@ -1,0 +1,52 @@
+@media only screen and (min-width: 37.5em) {
+      
+    nav button {
+      display:none; 
+  }  
+    
+    section.forecast { 
+      display: block; 
+    }  
+  
+  nav ul li {
+      display: inline-block;
+    }
+  
+  nav ul.hide {display: block;
+  }
+  
+    main article img{
+      width: 250px;
+      float: right;
+      margin: 7px;
+      box-shadow: 4px 4px 4px #092834;
+      padding: 2px;
+      
+  }
+  
+  .grid img{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 75%;
+      margin: 0 0 0 2%;
+      box-shadow: 10px 10px 10px #092834;
+      padding: 2px;
+    
+  }
+  
+  .grid figure:hover {
+      box-shadow:  1px 1px 1px #092834; 
+    
+}
+  .gridimage figcaption {
+      text-align: center; font-size: .75rem;
+    
+  }
+  .town-article {
+      padding: 10px;
+    
+  }
+    
+
+  
+  

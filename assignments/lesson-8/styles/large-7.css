@@ -1,0 +1,14 @@
+@media only screen and (min-width:64em)
+{
+  nav ul li a {font-size:  larger;
+        
+  }
+  
+  nav ul.hide {display: block;}
+  }
+ 
+form label.sbs{
+  padding: .4rem 0;
+  
+}
+  
