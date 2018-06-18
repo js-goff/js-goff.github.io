@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to the Local Franklin City Weather Porch. Franklin's Current Weather Forecast</title>
+  <meta name="description" content="The Tri-Cities Weather Page. We know your weather.">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-7.css">
+        <link rel="stylesheet" href="styles/medium-7.css">
+        <link rel="stylesheet" href="styles/large-7.css">   
+        <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119106167-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119106167-1');
+    </script>
+
+  
+</head>
+<body>
+  
+  <header>
+    <figure class="logo" alt="weather logo sun and cloud">
+    <img src="images/Weather-PNG-Transparent-Image.png" alt="weather logo" sizes="vw 50%">
+    </figure>
+    <h1> Franklin's Local Weather Page </h1>
+    <div class="subheading">"Where we always have your weather needs covered!"</div>
+  
+       
+                  
+        
+      
+  </header>
+
+  <nav>
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">      
+    	<li><a href="#">Home</a></li>
+    	<li><a href=franklin-7.html>Franklin</a></li>
+    	<li><a href="#">Greenville</a></li>
+    	<li><a href="#">Springfield</a></li>
+    	<li><a href="#">Storm Center</a></li>
+    	<li><a href="gallery-7.html">Gallery</a></li>
+    </ul>		
+  </nav>
+    
+  <main>
+    <figure class= "gridimage">
+      <div class="grid">
+     
+   
+   
+                <figure>
+                    <img src="images/sunny-day-320.jpg" alt="Blue Sky and Sun in Franklin">
+                    <figcaption>Blue Sky and Sun in Franklin</figcaption>
+                </figure>                
+                <figure>
+                    <img src="images/Franklin-residents-320.jpg" alt="Franklin Residents Bird Watching From a Bridge">
+                    <figcaption>Franklin Residents Bird Watching From a Bridge</figcaption>
+                </figure>                
+                <figure>
+                    <img src="images/Fall-winter-320.jpg" alt="Franklin's First Frost">
+                    <figcaption>Franklin's First Frost</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/Franklin-snowfall-320.jpg" alt="Record Snowfall in Franklin 2014">
+                    <figcaption>Record Snowfall in Franklin 2014</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/autumn-mists-320.jpg" alt="Fall Mist up at Franklin Park">
+                    <figcaption>Fall Mist up at Franklin Park</figcaption>
+                </figure>                
+                <figure>
+                    <img src="images/Spring-Franlin-320.jpg" alt="Spring Day in the Fields of Franklin">
+                    <figcaption>Spring Day in the Fields of Franklin</figcaption>
+                </figure>
+              
+      </div>
+    </figure>
+  </main>
+    
+  <footer>
+    <section class="contact">
+      Jared Goff
+      999.999.9999
+      123 Main St. Franklin, US 99999
+      Google Map
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | The Tri-Cities Weather | <span id="currentdate"></span>
+    </section>
+  </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+
+</body>
+</html>
