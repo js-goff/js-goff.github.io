@@ -3,6 +3,6 @@ function adjustRating(rating) {
 }
 
 function openInNewTab(url) {
-  var win = window.open(url, '_thank you.html');
+  var win = window.open(url, '_thank-you.html');
   win.focus();
 }
