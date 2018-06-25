@@ -1,0 +1,352 @@
+* { 
+  box-sizing: border-box;
+
+}  
+
+body {
+  font-size: 15px;
+  font-family: 'rokitt', sans-serif;
+  
+}
+
+header, nav, main, footer {
+  max-width: 960px; 
+  margin: 0 auto;
+  background: #0c8dc0;
+  
+}
+
+h1 {
+  display: flex;
+  font-family: 'rokitt', sans-serif;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  
+  
+}
+
+ h2, h3, h4, h5, h6{
+  font-family: 'rokitt', sans-serif;
+  color: #fff;
+  padding: 7px;
+  text-align: center;
+        
+}
+
+
+header {
+  
+}
+header h1 {}
+header img {
+  width: 100%;
+  padding: .9em
+    
+}
+
+header figure .franklin{
+  width: 100%;
+}
+
+header figure .franklin img {width: 100%;
+
+}
+
+header .subheading {
+  display: flex;
+  flex-flow:column;
+  font-family: 'Rokkitt', serif;
+  color: #fff;
+  padding: 3px;  
+  text-align: center;
+  margin-right: 1em;
+  
+}
+
+nav {
+  background: #092834;
+  text-align: center;  
+}
+nav button {
+  margin: 2rem 2%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6rem;
+  color: #fff; 
+  
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+nav ul li {
+  display: block;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: .75rem;
+  text-decoration: none;
+  font-size: .9rem;
+  }
+nav ul li.active a {}
+nav ul li a:hover {
+  background-color: #bbb;
+  color: #092834;
+  
+}
+nav ul.hide {display: none;}
+
+main {}
+main h2 {}
+main figure { 
+  margin: 0 0 .2rem 2%; 
+  width:96%; 
+}
+
+main figure img { }
+
+main article {
+  padding: .25em;
+  text-align: left;
+  margin: 1% 0 0 2%
+}
+
+main article img{
+  width: 100%;
+  height: 50%;
+  
+}
+
+
+footer {
+  text-align: center;
+  background-color: #092834;
+  color: #fff;
+  padding-top: 1em;
+}
+
+.forecast{
+  display:none;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.current img {
+  width: 100px;
+  padding: .5em; 
+  margin-right: 200px;
+  
+}
+
+table , th, td {
+  border: 2px solid #fff;
+  color: #fff;
+  border-collapse: collapse;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+tr {
+  height: 5px;
+}
+ 
+.weather-summary{
+  text-align: left;
+  color: #fff;
+}
+
+.highlow {
+  text-align:center;
+  color: #fff;
+  height: 5em;
+}
+
+.logo{
+  justify-content: flex-start;
+  margin: 10px;
+  width: 150px;
+  padding: 10px;
+  height: 10px;
+  float: left;
+   
+}
+
+.current {
+  text-align: center;
+  color: #fff;
+  margin: 10px;
+  height: 5px;
+}
+
+.conditions{
+  text-align: center;
+  color: #fff;
+  padding:15px;
+ 
+}  
+.contact{
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 2px;
+} 
+
+.footer-bar{
+  text-align: center;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 2px;
+   
+}
+
+
+.town-article{
+  color: #fff;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  background: #0c8dc0; 
+  padding: 1em;
+  color: #fff;
+   
+}
+
+main .gridimage {
+  width: auto;
+ 
+}
+
+/* ------------- FORM -----------*/
+
+h1 {
+  text-align: center;
+}
+
+form fieldset {
+  margin: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: .5rem;
+}
+form legend {
+  color: #fff;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+} 
+form label.top, form div{
+  display: block;
+  padding-top: 1rem;
+  color: #fff;
+  font-size: .8rem;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #fff;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #092834;
+  
+}
+
+form label.sbs{
+  display: block;
+  padding: .75rem 0;
+  color: #fff;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px;
+}
+
+form label.top textarea {
+  text-align:left;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #fff;
+  border-radius: 4px;
+  padding: 5rem;
+  color: #fff;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #092834;
+  
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+

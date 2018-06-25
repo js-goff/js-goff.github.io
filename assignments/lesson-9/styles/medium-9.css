@@ -1,0 +1,74 @@
+@media only screen and (min-width: 37.5em) {
+      
+    nav button {
+      display:none; 
+  }  
+    
+    section.forecast { 
+      display: block; 
+    }  
+  
+  nav ul li {
+      display: inline-block;
+    }
+  
+  nav ul.hide {display: block;
+  }
+  
+    main article img{
+      width: 250px;
+      float: right;
+      margin: 7px;
+      box-shadow: 4px 4px 4px #092834;
+      padding: 2px;
+      
+  }
+  
+  .grid img{         
+      width: 100%;
+        
+  }
+  
+  .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  background: #0c8dc0; 
+  padding: 1em;
+  color: #fff;
+  }
+  
+  
+  .gridimage figcaption {
+      text-align: center; font-size: .75rem;
+    
+  }
+  .town-article {
+      padding: 10px;    
+  }
+    
+/* ------------- Home Page -----------*/
+
+
+article{
+  display:flex;
+  flex-direction: column;  
+  
+}
+
+article:nth-child(odd) {
+  flex-direction: row-reverse;
+  text-align: center;
+}
+article:nth-child(even) {
+flex-direction: row;
+text-align: center;  
+}
+
+
+
+.home{flex-direction: row-reverse;
+  background-color: #0c8dc0; color:#fff;}
+  
+
+  

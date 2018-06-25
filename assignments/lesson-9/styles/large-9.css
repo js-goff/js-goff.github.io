@@ -1,0 +1,30 @@
+@media only screen and (min-width:64em)
+{
+  nav ul li a {font-size:  larger;
+        
+  }
+  
+  nav ul.hide {display: block;}
+  }
+ 
+form label.sbs{
+  padding: .4rem 0;
+  
+}
+.grid figure:hover {
+      box-shadow:  1px 1px 1px #092834; 
+}
+
+ .grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2em;
+  background: #0c8dc0; 
+  padding: 1em;
+  color: #fff;
+}
+article {
+      display:flex;
+      flex-flow: column; 
+}
+
