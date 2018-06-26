@@ -24,23 +24,19 @@
       
   }
   
-  .grid img{         
-      width: 100%;
-        
+
+   
+ 
+  .grid img{  
+     display: flex;
+     width: 100%;
+         
   }
   
-  .grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
-  background: #0c8dc0; 
-  padding: 1em;
-  color: #fff;
-  }
-  
-  
+ 
   .gridimage figcaption {
       text-align: center; font-size: .75rem;
+      width:100%;
     
   }
   .town-article {
@@ -50,7 +46,7 @@
 /* ------------- Home Page -----------*/
 
 
-article{
+section article{
   display:flex;
   flex-direction: column;  
   

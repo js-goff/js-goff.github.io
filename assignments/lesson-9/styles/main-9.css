@@ -218,18 +218,11 @@ tr {
 }
 
 .grid{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2em;
+  display: flex;
+  flex: auto 
   background: #0c8dc0; 
   padding: 1em;
-  color: #fff;
-   
-}
-
-main .gridimage {
-  width: auto;
- 
+  color: #fff;   
 }
 
 /* ------------- FORM -----------*/
