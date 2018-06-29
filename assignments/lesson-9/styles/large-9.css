@@ -4,15 +4,12 @@
         
   }
   
-  nav ul.hide {display: block;}
+  nav ul.hide {display: block;
   }
  
 form label.sbs{
   padding: .4rem 0;
   
-}
-.grid figure:hover {
-      box-shadow:  1px 1px 1px #092834; 
 }
 
  .grid{
@@ -23,10 +20,19 @@ form label.sbs{
   padding: 1em;
   color: #fff;
 }
+  
+  .grid div img:hover{ box-shadow:  1px 1px 1px #092834;
+  }
 
-
-article {
-      display:flex;
-      flex-flow: column; 
+section articles{
+  display:flex;
+  flex-direction: column; 
 }
 
+articles {
+      display:flex;
+      flex-flow:row;
+      flex-direction: row;
+      text-align: center 1em
+}
+}

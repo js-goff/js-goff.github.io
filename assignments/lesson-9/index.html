@@ -40,12 +40,12 @@
   <nav>
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">      
-    	<li><a href="index.html">Home</a></li>
-    	<li><a href="franklin-7.html">Franklin</a></li>
-    	<li><a href="#">Greenville</a></li>
-    	<li><a href="#">Springfield</a></li>
-    	<li><a href="stormcenter.html">Storm Center</a></li>
-    	<li><a href="/assignments/lesson-7/gallery-7.html">Gallery</a>
+    	<li class= "active"><a href="index.html">Home</a></li>
+    	<li class= "active"><a href="franklin-7.html">Franklin</a></li>
+    	<li class= "active"><a href="#">Greenville</a></li>
+    	<li class= "active"><a href="#">Springfield</a></li>
+    	<li class= "active"><a href="stormcenter.html">Storm Center</a></li>
+    	<li class= "active"><a href="/assignments/lesson-7/gallery-7.html">Gallery</a>
         </li>
     </ul>		
   </nav>
@@ -53,31 +53,39 @@
   <main>
     
 <section>
-  <article>
-    <img src="images/Franklin-residents-320.jpg" alt= "Franklin Brid Watching">
-    <div class="home">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu. Phasellus tincid</div>
+  <h4>Latest Tri-Cities Weather New</h4>
+  
+
+  <article class="weathersum">
+    <img class="pic" src="images/Franklin-residents-320.jpg"  alt= "Franklin Brid Watching">
+    <p class="text">
       
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu. Phasellus tincid Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu.</p>
   </article>  
-  <article>
+   
+      
+    
+  <articles>
     <img src="images/Fall-winter-320.jpg" alt= "Greenville in the Fall">
     <div class="home">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu..</div>
+      Franklin <span id="name0"></span> <br>Motto <span id="fmotto"></span><br>Year Founded <span id="fyear"></span> <br> Current Population <br> Average Rainfall <br> Events
       
-  </article> 
-  <article>
+ </div>
+      
+  </articles> 
+  <articles>
     <img src="images/Franklin-snowfall-320.jpg" alt= "SpringField Snow Storm">
     <div class="home">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu. .</div>
+  Greenvile <br>Motto <br>Year Founded <br> Current Population <br> Average Rainfall <br> Events.</div>
     
       
-  </article> 
-  <article>
+  </articles> 
+  <articles>
     <img src="images/Fall-winter-320.jpg" alt= "filler words">
     <div class="home">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum pharetra sapien quis luctus. Praesent imperdiet, odio sed egestas lobortis, sapien nisl elementum nulla, nec lacinia sapien enim vitae sem. Praesent lacinia congue nibh, id posuere arcu pretium ac. Cras sagittis pharetra facilisis. Nam sem ante, posuere vel elit et, pretium congue tortor. Nulla in turpis consequat, accumsan enim non, fringilla arcu. </div>
+ Springfield <br>Motto<br>Year Founded <br> Current Population <br> Average Rainfall <br> Events </div>
       
-  </article>  
+  </articles>  
   </section>  
   </main>
     
@@ -93,6 +101,7 @@
   </footer>
         <script src="scripts/hamburger.js"></script>
         <script src="scripts/currentdate.js"></script>
+        <script src="scripts/towndata.js"></script>
         
 </body>
 </html>
