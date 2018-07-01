@@ -1,6 +1,6 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 37.5em) and (max-width: 64em) {
       
-    nav button {
+    button {
       display:none; 
   }  
     
@@ -12,18 +12,15 @@
       display: inline-block;
     }
   
-  nav ul.hide {display: block;
+  nav ul.hide {display:flex;
 }
   
-main article img{
-  display: flex;
-  width: 250px;
-  float: right;
-  margin: 7px;
-  box-shadow: 4px 4px 4px #092834;
-  padding: 2px;
+.pic {
+    display: flex;
+    padding: 5px;
+    width: 50%;
       
-}
+  }
   
 
   .grid{
@@ -57,23 +54,19 @@ section articles{
   
 }
 
-articles:nth-child(odd) {
-  flex-direction: row;
-  text-align: center; font-size: 1.50rem;
-  color: #fff;
-  padding: 10px:
+  #towndata{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #towndata div{
+    flex-direction:row;
     
-}
-articles:nth-child(even) {
-  flex-direction: row-reverse;
-  text-align: center; font-size: 1.50rem;
-  color: #fff;
-  padding: 10px;
-  
+  }
 
-}
-  
-
+  #towndata div:nth-child(even){
+    flex-direction: row-reverse;
+  }
 
  .article weathersum: {
   display: flex;
@@ -93,10 +86,17 @@ articles:nth-child(even) {
   }
   
   .pic {float:left;
-    padding: 20px;
+    padding:5px;
+    margin: 0 1rem 0 0;
   }
   
   .text {
-    text-align: center; font-size: .75rem;
+    text-align: left; font-size: .75rem;
     color: #fff;
+    padding: 2px;
+    margin-left: 20em 0 0 0;
+    
+
   }
+
+}

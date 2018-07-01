@@ -38,7 +38,9 @@ h1 {
 header {
   
 }
-header h1 {}
+header h1 {
+  
+}
 header img {
   width: 100%;
   padding: .9em
@@ -94,12 +96,16 @@ nav ul li a {
   font-size: .9rem;
   }
 nav ul li.active a {}
-nav ul li a:hover {
+nav ul li a:hover:not(.active) {
   background-color: #bbb;
   color: #092834;
   
 }
-nav ul.hide {display: none;}
+
+.active{
+  background-color: #bbb;
+}
+
 
 main {}
 main h2 {}
@@ -114,13 +120,10 @@ main article {
   padding: .25em;
   text-align: left;
   margin: 1% 0 0 2%
+    
 }
 
-main article img{
-  width: 100%;
-  height: 50%;
-  
-}
+
 
 
 footer {
@@ -223,6 +226,9 @@ tr {
   grid-gap:1em;
   grid-template-columns: 1fr;
   color: #fff;   
+  border: solid 1px #092834;
+  padding-left: 20px;
+  margin: 0 1em 1em .75rem;  
 }
 
 /* ------------- FORM -----------*/
@@ -310,15 +316,59 @@ section articles{
   text-align: center;
   
   
+}
+
+ #fweather{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 1em;
+  border: solid lightgray;
+  border-radius: 4px;
+  padding: .5em;
+  color: #fff;
+   
   
 }
 
-articles img{
+
+#fweather div  {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin:.75rem; 
+  color: #fff;
+  max-width: 100%;
+}
+
+
+
+.pic {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+      
+  }
+
+#fweather div p {
+  display: flex;
+  flex-direction: row;
+  margin:.75rem; 
+  color: #fff;
+  flex-flow: wrap;
+  text-align: center;
+}
+
+
+article img{
+  display: flex;
+  float: right;
   box-shadow: 2px 2px 2px #092834;
   padding: .75em;
-  margin:10px 10px 10px 10px;
+  margin:1px 1px 1px 1px;
   border: solid .75px #092834;
-  border-radius: 4px;
+  border-radius: 1px;
+  
   
 }
 .home{
@@ -333,14 +383,29 @@ articles img{
   }
 
  .text {
-    text-align: center; font-size: .75rem;
+    text-align: left; font-size: .75rem;
     color: #fff;
+    margin: 1em;
   }
-
+.cities{
+  font-size: .75em;
+}
     
+#towndata div{
+  display: flex;
+  flex-direction: column;
+  border: solid lightgray 1px;
+  color: #fff;
+  
+  
+}
 
-
-
+ temps{
+   text-align: center;
+    
+  }
+@media only screen and (max-width:37.5em){
+  .hide {display: none;}}
 
 
 

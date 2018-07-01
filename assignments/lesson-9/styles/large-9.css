@@ -1,38 +1,134 @@
-@media only screen and (min-width:64em)
-{
+@media only screen and (min-width:64em) {
+
   nav ul li a {font-size:  larger;
         
   }
   
-  nav ul.hide {display: block;
+  nav ul li{
+    display: inline-block;
+  }
+  
+  nav ul.hide {display: flex;
+   justify-content: center;
   }
  
 form label.sbs{
   padding: .4rem 0;
   
 }
+  
+  button{
+    display:none;
+  }
+  
+  .grid img{
+    width:75%;
+  }
 
  .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em;
+  grid-gap: .5em;
   background: #0c8dc0; 
   padding: 1em;
   color: #fff;
 }
   
-  .grid div img:hover{ box-shadow:  1px 1px 1px #092834;
+.grid div img:hover{ box-shadow:  1px 1px 1px #092834;
   }
 
-section articles{
-  display:flex;
-  flex-direction: column; 
+  articles{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-gap: 1em;
+  background: #0c8dc0; 
+  padding: 1em;
+  color: #fff;
+}
+  
+  .weathersum img{
+    display: flex;
+    justify-content: center;    
+    float:right;
+    padding: 2rem;
+    
+    
+    
+  }
+  .weathersum{
+    text-align: center;
+    
+  }
+
+  
+  
+  p{
+  color: #fff
+  }
+
+section article {
+  width: 33%;
+  float: left;
 }
 
-articles {
-      display:flex;
-      flex-flow:row;
-      flex-direction: row;
-      text-align: center 1em
+section p {
+  margin: 5px 0;
 }
+
+section ul {
+  margin-top: 0;
+}
+
+  .pic {
+    display: flex;
+    padding: 5px;
+    width: 100%
+      
+  }
+  
+ 
+
+ article{
+  display: flex;
+  flex-direction:column;
+  background: #0c8dc0; 
+  padding: 1em;
+  color: #fff;
+    
+  }  
+  .pueblo{
+  display: flex;
+  flex-direction: row;
+  
+    
+  }
+  
+   #towndata{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+  
+     
+  }
+  
+  #towndata div{
+    flex-direction:column;
+    text-align: center;
+    color: #fff;
+    padding:5px;
+    margin: 2 0 0 2;
+    border: solid lightgray 1px ;
+    border-radius: 4px;
+    padding:10px;
+        
+  }
+  
+  #towndata img{
+    width: 100%;
+   
+    
+  }
+  
+
+  
 }

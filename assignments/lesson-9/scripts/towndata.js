@@ -1,22 +1,77 @@
-      let request = new XMLHttpRequest();     
-      var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+  var frankmotto = towninfo.towns[0].motto;
+  document.getElementById("fmotto").innerHTML = frankmotto;
+  
+  
+    var frankyear = towninfo.towns[0].yearFounded;
+    document.getElementById("fyear").innerHTML = frankyear;
+    
+    var frankpop = towninfo.towns[0].currentPopulation;
+    document.getElementById("fpopulation").innerHTML = frankpop;
+    
+    var frankrain = towninfo.towns[0].averageRainfall;
+    document.getElementById("frainFall").innerHTML = frankrain;
+    
+    var frankevents = towninfo.towns[0].events;
+    document.getElementById("fevents").innerHTML = frankevents;
+    
+    
+    
+    var greenmotto = towninfo.towns[1].motto;
+    document.getElementById("gmotto").innerHTML = greenmotto;
+    
+    var greenyear = towninfo.towns[1].yearFounded;
+    document.getElementById("gyear").innerHTML = greenyear;
+    
+    var greenpop = towninfo.towns[1].currentPopulation;
+    document.getElementById("gpopulation").innerHTML = greenpop;
+    
+    var greenrain = towninfo.towns[1].averageRainfall;
+    document.getElementById("grainFall").innerHTML = greenrain;
+    
+    var greenevents = towninfo.towns[1].events;
+    document.getElementById("gevents").innerHTML = greenevents;
+    
+    
+    
+    var springmotto = towninfo.towns[3].motto;
+    document.getElementById("smotto").innerHTML = springmotto;
+    
+    var springyear = towninfo.towns[3].yearFounded;
+    document.getElementById("syear").innerHTML = springyear;
+    
+    var springpop = towninfo.towns[3].currentPopulation;
+    document.getElementById("spopulation").innerHTML = springpop;
+    
+    var springrain = towninfo.towns[3].averageRainfall;
+    document.getElementById("srainFall").innerHTML = springrain;
+    
+    var springevents = towninfo.towns[3].events;
+    document.getElementById("sevents").innerHTML = springevents;
+    
+}
+
+for (var i = 0; i < towninfo.towns.length; i++){
+myPara1.textContent = 'Secret identity: ' + towninfo.towns[i].name;
+
+}
+
+/*
+let townURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
      
-      request.open('GET', requestURL, true);  
-      request.responseType = 'json';
-      request.send();  
-      request.onload = function() {
-      var towninfo = request.response;
       
-      var frankname = towninfo.towns[0].name;
-      document.getElementById("name0").innerHTML = frankname;
       
-      var frankmotto = towninfo.towns[0].motto;
-      document.getElementById("fmotto").innerhtml = frankmotto;
+                 
+     
+      
         
       var frankyear = towninfo.towns[0].yearFounded;
-      document.getElementById("fyear").innerhtml = frankyear;
+      document.getElementById("fyear1").innerhtml = frankyear;
         
 
+      
+    
+        
+}*/
     /*  for (var i = 0;){
     //            var name = towninfo.towns[i].name;  
     //            var motto = towninfo.towns[i].motto; 
@@ -51,4 +106,4 @@
       document.getElementById("activities").innerHTML = activities;
       
        */
-      }
+      
