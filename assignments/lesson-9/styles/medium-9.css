@@ -68,7 +68,7 @@ section articles{
     flex-direction: row-reverse;
   }
 
- .article weathersum: {
+ .article weathersum {
   display: flex;
   flex-direction: row
   width: 250px;
@@ -94,7 +94,7 @@ section articles{
     text-align: left; font-size: .75rem;
     color: #fff;
     padding: 2px;
-    margin-left: 20em 0 0 0;
+    margin-left: 1em ;
     
 
   }
