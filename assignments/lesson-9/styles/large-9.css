@@ -1,29 +1,29 @@
 @media only screen and (min-width:64em) {
 
-  nav ul li a {font-size:  larger;
+nav ul li a {font-size:  larger;
         
-  }
+}
   
-  nav ul li{
-    display: inline-block;
-  }
+nav ul li{
+  display: inline-block;
+}
   
-  nav ul.hide {display: flex;
-   justify-content: center;
-  }
+nav ul.hide {display: flex;
+ justify-content: center;
+}
  
 form label.sbs{
   padding: .4rem 0;
   
 }
   
-  button{
-    display:none;
-  }
+button{
+  display:none;
+}
   
-  .grid img{
-    width:75%;
-  }
+.grid img{
+  width:100%;
+}
 
  .grid{
   display: grid;
@@ -32,12 +32,27 @@ form label.sbs{
   background: #0c8dc0; 
   padding: 1em;
   color: #fff;
+ 
+}
+
+.grid figcaption {
+  text-align: center;
+  padding: 5px
+  
 }
   
 .grid div img:hover{ box-shadow:  1px 1px 1px #092834;
-  }
+  
+  
+}
+  
+.grid div{
+  border: solid #bbb;
+  padding: 5px;
+}
 
-  articles{
+
+articles{
   display: grid;
   grid-template-columns:  1fr 1fr 1fr;
   grid-gap: 1em;
@@ -46,25 +61,25 @@ form label.sbs{
   color: #fff;
 }
   
-  .weathersum img{
-    display: flex;
-    justify-content: center;    
-    float:right;
-    padding: 2rem;
+.weathersum img{
+  display: flex;
+  justify-content: center;    
+  float:right;
+  padding: 2rem;
     
     
     
-  }
-  .weathersum{
-    text-align: center;
+}
+.weathersum{
+  text-align: center;
     
-  }
+}
 
   
   
-  p{
+p{
   color: #fff
-  }
+}
 
 section article {
   width: 33%;
@@ -79,55 +94,61 @@ section ul {
   margin-top: 0;
 }
 
-  .pic {
-    display: flex;
-    padding: 5px;
-    width: 100%
+.pic {
+  display: flex;
+  padding: 5px;
+  width: 100%
       
-  }
+}
   
  
 
- article{
+article{
   display: flex;
   flex-direction:column;
   background: #0c8dc0; 
   padding: 1em;
   color: #fff;
     
-  }  
-  .pueblo{
+}  
+.pueblo{
   display: flex;
   flex-direction: row;
   
     
-  }
+}
   
-   #towndata{
-    display: flex;
-    flex-direction:row;
-    padding: 10px;
+#towndata{
+  display: flex;
+  flex-direction:row;
+  padding: 10px;
   
      
-  }
+}
   
-  #towndata div{
-    flex-direction:column;
-    text-align: center;
-    color: #fff;
-    padding:5px;
-    border: solid lightgray 1px ;
-    border-radius: 4px;
-    padding:10px;
+#towndata div{
+  flex-direction:column;
+  text-align: center;
+  color: #fff;
+  padding:5px;
+  border: solid lightgray 1px ;
+  border-radius: 4px;
+  padding:10px;
         
-  }
+}
   
-  #towndata img{
-    width: 100%;
+#towndata img{
+  width: 100%;
+    
    
     
-  }
-  
+}
+article img{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 50%;
+}
 
   
 }
