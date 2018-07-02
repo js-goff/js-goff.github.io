@@ -70,7 +70,7 @@ section articles{
 
  .article weathersum {
   display: flex;
-  flex-direction: row
+  flex-direction: row;
   width: 250px;
   float: right;
   margin: 7px;
