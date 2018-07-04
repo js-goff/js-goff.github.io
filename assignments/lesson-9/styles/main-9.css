@@ -344,6 +344,7 @@ section articles{
   display: flex;
   flex-direction: row;
   text-align: center;
+  flex-flow: wrap;
   margin: 1em;
   border: solid lightgray;
   border-radius: 4px;
@@ -357,14 +358,33 @@ section articles{
 #fweather div  {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
+  flex-flow: column;
   margin:.75rem; 
   color: #fff;
   max-width: 100%;
 }
 
+#current-temp{
+  display: flex;
+  padding:2px;
+  margin-left:1em;
+  
+  
+}
 
+#current-cond{
+  padding:2px;
+  margin-left: 1em;
 
+}
+#wind-speed{
+  padding: 2px;
+  margin-left: 1em;
+}
+#weatherimage{
+  padding: 2px;
+  margin-left:  1em;
+}
 .pic {
   display: flex;
   padding: 5px;
@@ -388,8 +408,8 @@ article img{
   display: flex;  
   float: right;
   box-shadow: 2px 2px 2px #092834;
-  padding: .75em;
-  margin:1px 1px 1px 1px;
+  padding: 4px;
+  margin-right: 4px;
   border: solid .75px #092834;
   border-radius: 1px;
   width: 75%;

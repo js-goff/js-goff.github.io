@@ -104,7 +104,7 @@ section ul {
  
 
 article{
-  display: flex;
+ 
   flex-direction:column;
   background: #0c8dc0; 
   padding: 1em;
@@ -148,7 +148,11 @@ article img{
   justify-content: flex-end;
   flex-direction: row;
   width: 75%;
+  float:right;
 }
+
+ 
+  
 
   
 }
