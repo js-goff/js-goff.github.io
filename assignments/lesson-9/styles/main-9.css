@@ -366,23 +366,23 @@ section articles{
 
 #current-temp{
   display: flex;
-  padding:2px;
+  padding:1px;
   margin-left:1em;
   
   
 }
 
 #current-cond{
-  padding:2px;
+  padding:1px;
   margin-left: 1em;
 
 }
 #wind-speed{
-  padding: 2px;
+  padding: 1px;
   margin-left: 1em;
 }
 #weatherimage{
-  padding: 2px;
+  padding: 1px;
   margin-left:  1em;
 }
 .pic {
