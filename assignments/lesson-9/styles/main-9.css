@@ -465,7 +465,7 @@ p.text{
 }
 img{
   padding: .5em;
-}
+ }
 
 @media only screen and (max-width:37.5em){
   .hide {display: none;}}
