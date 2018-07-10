@@ -4,11 +4,35 @@
 	<meta charset="UTF-8">
 	<title>Alcove Digital Systems</title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery-2.2.1.min.js"></script>
+	<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
+      
+      
 	$(function(){
 		// jQuery Code goes here
-
+        $(".coreValues").prepend("<li><strong>This is also Great!!</strong></li>",
+                                 "<li><strong>This is brand new!!</strong></li>");
+        var nameVal = $('input[name="nameVal"]');
+        function FillEmpty(){
+          if( nameVal.val() == ''){
+              nameVal.val( 'John Doe');
+          }
+        }
+      
+        var toggleStyle = function() {
+        
+        var inputFields = $('input[type="text"]');
+        
+        if( inputFields.css('background-color') === 'rgb(255, 0, 0)') {
+            inputFields.css('background-color', 'rgb(255, 255, 255)');
+        } else {
+            inputFields.css('background-color', 'rgb(255, 0, 0)');
+         
+        }
+          
+      }
+      $('#ReqAQuoteBtn').click( FillEmpty);  
+      $('#ReqAQuoteBtn').click( toggleStyle );
 	})
 	</script>
 </head>
@@ -103,7 +127,7 @@
 		</div>
 
 		<div class="footer">
-			<h5>© Alcove Digital Systems | <a href="#">Terms of Use</a></h5>
+			<h5>© Alcove Digital Systems | <a href="#">Terms of Use | </a> <a href="animatedMenuBegin.htm">Animated Menu | <a href="DropDownMenuBegin.htm">Drop Down Menu | <a href="fruitBasketBegin.htm">Fruit Basket | <a href="InsertHTMLBegin.htm">Insert HTML | <a href="toggleButtonBegin.htm">Toggle Button </a></a></a></a> </a></h5>
 		</div>
 	</div>
 </body>
