@@ -1,0 +1,63 @@
+@media only screen and (min-width: 64em) {
+ section { 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Domine';
+  
+}
+
+.subheading{
+  color: #006400;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Domine';
+  color: #006400;
+  padding: 5px;
+  margin-left: 1.5em;
+  text-align: center;
+  font-size: 45px;
+  padding: 10px;
+  }
+
+  
+
+
+ h2, h3, h4, h5, h6{
+  display: flex;
+  font-family: 'Domine';
+  color: #006400;
+  padding: 5px;
+  text-align: center;
+}
+   
+nav button{
+  display: none;
+}
+/* nav menu */
+
+nav ul li a {font-size: 2rem;
+        
+}
+  
+nav ul li{
+  display: inline-flex;
+}
+  
+nav ul.hide {display: inline-block;
+  padding: 15px;
+  }
+  
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: .5em;
+  background: #fff; 
+  padding: 1em;
+     color: #fff;}
+
+}

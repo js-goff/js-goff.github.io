@@ -12,7 +12,7 @@ nav ul li {
   display: inline-block;
 }
   
-nav ul.hide {display:flex;
+nav ul.hide {display:block;
 }
   
 .pic {
