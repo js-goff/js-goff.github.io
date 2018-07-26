@@ -56,11 +56,11 @@ h1 {
   flex-wrap: wrap;
   padding: 2px;
   }
-}
+
   
 
 
- h2, h3, h4, h5,{
+ h2, h3, h4, h5{
   display: flex;
   font-family: 'Domine';
   color: #006400;
@@ -340,7 +340,7 @@ table{
 .specs{
   display: flex;
   text-align: left;
-  padding:
+ 
 }
 
 .specs ul li{
