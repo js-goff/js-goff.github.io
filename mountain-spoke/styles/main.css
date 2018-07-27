@@ -170,6 +170,22 @@ nav ul li a:hover:not(.active) {
    
 }
 
+.footer-bar ul li a{
+  display: flex;
+  flex-flow: column;
+  color: #006400;
+  padding: 5px;
+  max-width: 50%;
+ 
+}
+.footer-bar video{
+  display: flex;
+  border: solid #006400 2px;
+  padding: 3px;
+  max-width: 50%;
+  
+}
+
 
 .slideshow{
   display: flex;
